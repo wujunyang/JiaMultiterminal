@@ -1,0 +1,12 @@
+platform :ios, '8.0'
+
+
+abstract_target 'JiaUserAppDefault' do
+
+    pod 'SDWebImage', '~> 3.7.5'
+    pod 'Masonry', '~> 0.6.4'
+    
+    target 'JiaUserApp' do
+    end
+
+end
